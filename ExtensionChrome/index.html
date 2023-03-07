@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline';script-src 'self' 'nonce-a9f04fd1-06cf-4948-9d66-ea306e581896' 'unsafe-hashes'">
+    <link rel="stylesheet" href="index.css" />
+    <style>
+       h3 {
+          font-size: xxx-large;
+          font-weight: 700;
+      }
+      }
+      .app-container {
+      height: 75%;
+      width: 100%;
+      }
+      .complete {
+      text-decoration: line-through;
+      }
+      button {
+      height: 35px;
+      padding: 0px 9px 2px 12px;
+      }
+      tr {
+      height: 29px;
+      text-align: center;
+      padding: 2px 23px 2px 24px;
+      }
+      .table td, .table th {
+      padding: 2px 24px 0px 18px;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+      }
+      .table-light td, .table-light th, .table-light thead th {
+      border-color: #a2e1e1;
+      }
+      .table-light, .table-light>td, .table-light>th {
+      background-color: #dbdbdb;
+      }
+      table {
+      background: #289ff76e;
+      }
+      .sort:hover {
+      cursor: grab;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div
+      class="app-container d-flex align-items-center justify-content-center flex-column"
+    >
+      <h3>Add/Edit Domains</h3>
+      <div class="d-flex align-items-center mb-3">
+        <div class="form-group mr-3 mb-0">
+          <input
+            id="yourDomain"
+            type="text"
+            placeholder="Enter a domain here"
+          />
+        </div>
+        <button
+          type="button"
+          class="btn btn-primary mr-3"
+          id="saveDomain"
+        >
+          Save
+        </button>
+      </div>
+      <div class="table-wrapper" style="overflow: scroll;height: 554px;">
+        <table class="table table-hover table-bordered">
+          <thead>
+            <tr>
+              <th id="sortIndx" class="sort">No.</th>
+              <th id="sortName" class="sort">DomainName</th>
+              <th id="sortStatus" class="sort">Allowed-status</th>
+              <th id="sortAction" class="sort">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="index.js">
+      update()
+    </script>
+  </body>
+</html>
