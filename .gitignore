@@ -1,0 +1,13 @@
+*.kra
+*.kra~
+test.*
+*.test
+no_*
+__*
+virtual
+venv
+.env
+.bak
+.pass
+.secret
+.no
