@@ -58,7 +58,7 @@
 
 <!--[![Product Name Screen Shot][product-screenshot]](https://github.com/leyuskc/SMFS)-->
 
-### "In modern world or internet , It is the solution to modernize the scholl and bussinesses."
+### "In modern world or internet , It is the solution to modernize the school and bussinesses."
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
