@@ -3,7 +3,7 @@
 test.*
 *.test
 no_*
-__*
+__[^i]*
 virtual
 venv
 .env
@@ -12,3 +12,11 @@ venv
 .secret
 .no
 .gitignore
+*.db
+*.sqlite3
+*.token
+*.pickel
+*.cache
+*.cookies
+*.temp
+migrations
