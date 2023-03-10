@@ -16,8 +16,9 @@
   <h1 align="center">SMFS</h1>
 
   <p align="center">
-   SMFS is a social media platform for organizations. It's like a modular social media system. You can buy the source code from us and customize the setup on your own server, serving it to your members or students. This allows your organization to have its own customized social media interface that is separate from other distractions.
-   Students can communicate and share their projects with classmates, colleagues or college mates. If you cannot serve your own version, you can use our public version at a lower price.
+   SMFS is a social media platform for organizations. It is a modular social media system that allows you to purchase the source code rights from us and customize the setup on your own server, serving it to your members or students. This enables your organization to have its own customized social media interface that is separate from other distractions.
+
+Students can communicate and share their projects with classmates, colleagues, or college mates. If you are unable to host your own version, you can use our public version at a lower price.
     <br />
     <a href="https://github.com/leyuskckiran1510/SMFS"><strong>Explore the docs »</strong></a>
     <br />
